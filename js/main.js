@@ -591,8 +591,8 @@ function initContactForm() {
  */
 function sendEmail(formData) {
     // Replace these with your actual EmailJS service ID and template ID
-    const serviceID = 'service_cic';
-    const templateID = 'template_cic_website';
+    const serviceID = 'service_nic_website';
+    const templateID = 'template_nic_website';
 
     // Prepare template parameters
     const templateParams = {
@@ -601,7 +601,7 @@ function sendEmail(formData) {
         phone: formData.phone || 'Not provided',
         subject: formData.subject || 'General Enquiry',
         message: formData.message,
-        to_name: 'Cardiff International Church',
+        to_name: 'Newport International Church',
     };
 
     // Send email via EmailJS
