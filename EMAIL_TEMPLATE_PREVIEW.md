@@ -52,7 +52,7 @@ The following variables are automatically replaced by EmailJS:
 | `{{phone}}` | Phone number | 07123 456789 |
 | `{{subject}}` | Message subject | Prayer Request |
 | `{{message}}` | Message content | I would like to know more about... |
-| `{{to_name}}` | Recipient name | Cardiff International Church |
+| `{{to_name}}` | Recipient name | Newport International Church |
 
 ## Example Email Preview
 
@@ -60,11 +60,11 @@ The following variables are automatically replaced by EmailJS:
 ┌─────────────────────────────────────────────────────────┐
 │                                                         │
 │           New Contact Form Message                      │
-│        Cardiff International Church Website             │
+│        Newport International Church Website             │
 │                                                         │
 ├─────────────────────────────────────────────────────────┤
 │                                                         │
-│  You have received a new message from the Cardiff       │
+│  You have received a new message from the Newport       │
 │  International Church contact form.                     │
 │                                                         │
 │  ┌──────────────────────────────────────────────────┐  │
@@ -85,10 +85,10 @@ The following variables are automatically replaced by EmailJS:
 │                                                         │
 ├─────────────────────────────────────────────────────────┤
 │                                                         │
-│         Cardiff International Church                    │
-│    Cathays Terrace, Cathays, Cardiff, CF24 4HS, UK    │
+│         Newport International Church                    │
+│    7 Rockfield Street, St. Julians, Newport, NP19 7DG, UK │
 │                                                         │
-│   This message was sent via the CIC website contact    │
+│   This message was sent via the NIC website contact    │
 │                       form                              │
 │                                                         │
 └─────────────────────────────────────────────────────────┘

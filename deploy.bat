@@ -1,7 +1,7 @@
 @echo off
 cls
 echo ========================================
-echo Cardiff International Church Website
+echo Newport International Church Website
 echo Firebase Deployment Script
 echo ========================================
 echo.
@@ -65,11 +65,11 @@ echo ========================================
 echo.
 echo Your website is now live!
 echo.
-echo Hosting URL: https://cic-website-245dd.web.app
-echo Custom Domain: https://cardiffinternationalchurch.org
+echo Hosting URL: https://nic-website-2025.web.app
+echo Custom Domain: https://newportinternationalchurch.org
 echo.
 echo Firebase Console:
-echo https://console.firebase.google.com/project/cic-website-245dd
+echo https://console.firebase.google.com/project/nic-website-2025
 echo.
 echo ========================================
 echo.

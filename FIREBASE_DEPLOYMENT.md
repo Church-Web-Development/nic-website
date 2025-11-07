@@ -1,6 +1,6 @@
 # Firebase Deployment Guide
 
-This guide will help you deploy the Cardiff International Church website to Firebase Hosting.
+This guide will help you deploy the Newport International Church website to Firebase Hosting.
 
 ## Prerequisites
 
@@ -36,20 +36,20 @@ This will open your browser to authenticate with your Google account.
 **Option A: Via Firebase Console (Recommended)**
 1. Go to [Firebase Console](https://console.firebase.google.com/)
 2. Click "Add Project"
-3. Enter project name: `cic-website` (or your preferred name)
+3. Enter project name: `nic-website` (or your preferred name)
 4. Disable Google Analytics (optional for a static website)
 5. Click "Create Project"
 
 **Option B: Via CLI**
 ```bash
-firebase projects:create cic-website
+firebase projects:create nic-website
 ```
 
 ### 4. Initialize Firebase in Your Project
 
 Navigate to your project directory:
 ```bash
-cd d:\Software-Development\cic-website
+cd d:\Software-Development\nic-website
 ```
 
 Initialize Firebase:
@@ -60,7 +60,7 @@ firebase init hosting
 **Answer the prompts as follows:**
 
 1. **Select a default Firebase project:** 
-   - Choose the project you created (e.g., `cic-website`)
+   - Choose the project you created (e.g., `nic-website`)
 
 2. **What do you want to use as your public directory?**
    - Enter: `.` (current directory)
@@ -106,8 +106,8 @@ After deployment, you'll see output like:
 ```
 ✔  Deploy complete!
 
-Project Console: https://console.firebase.google.com/project/cic-website/overview
-Hosting URL: https://cic-website.web.app
+Project Console: https://console.firebase.google.com/project/nic-website/overview
+Hosting URL: https://nic-website.web.app
 ```
 
 Your website is now live at the Hosting URL!
@@ -119,7 +119,7 @@ Your website is now live at the Hosting URL!
 1. Go to [Firebase Console](https://console.firebase.google.com/)
 2. Select your project
 3. Go to **Hosting** → **Add custom domain**
-4. Enter your domain (e.g., `cardiffinternationalchurch.org`)
+4. Enter your domain (e.g., `newportinternationalchurch.org`)
 5. Follow the verification steps
 
 ### 2. Update DNS Records
@@ -134,7 +134,7 @@ Add the DNS records provided by Firebase to your domain registrar:
 
 **Or CNAME (for subdomain):**
 ```
-www    CNAME    cic-website.web.app
+www    CNAME    nic-website.web.app
 ```
 
 ### 3. Wait for SSL Certificate
@@ -171,7 +171,7 @@ firebase hosting:channel:list
 ## Project Structure
 
 ```
-cic-website/
+nic-website/
 ├── .firebaserc          # Firebase project configuration
 ├── firebase.json        # Firebase hosting configuration
 ├── .gitignore          # Git ignore file

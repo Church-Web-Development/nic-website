@@ -1,6 +1,6 @@
 # EmailJS Setup Instructions for Contact Form
 
-This document explains how to configure EmailJS for the Cardiff International Church contact form.
+This document explains how to configure EmailJS for the Newport International Church contact form.
 
 ## Overview
 
@@ -46,7 +46,7 @@ If you prefer a plain text email, use this instead:
 ```
 Hello {{to_name}},
 
-You have received a new message from the Cardiff International Church contact form.
+You have received a new message from the Newport International Church contact form.
 
 From: {{from_name}}
 Email: {{from_email}}
@@ -57,12 +57,12 @@ Message:
 {{message}}
 
 ---
-This message was sent via the CIC website contact form.
+This message was sent via the NIC website contact form.
 Reply directly to this email to respond to {{from_name}}.
 ```
 
 4. **Important Settings:**
-   - Set "From Name" to: `CIC Website Contact Form`
+   - Set "From Name" to: `NIC Website Contact Form`
    - Set "Reply To" to: `{{from_email}}` (this allows you to reply directly to the sender)
    
 5. Click **Save** and note down your **Template ID** (e.g., `template_xyz789`)
@@ -109,7 +109,7 @@ The following variables are sent from the form to EmailJS:
 - `phone` - The sender's phone number (optional)
 - `subject` - The message subject (optional)
 - `message` - The message content
-- `to_name` - Set to "Cardiff International Church"
+- `to_name` - Set to "Newport International Church"
 
 ## Troubleshooting
 

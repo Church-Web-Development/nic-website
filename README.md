@@ -1,9 +1,9 @@
 # CIC Website
 
-[![HTML](https://img.shields.io/badge/HTML-96.5%25-orange)](https://github.com/Cardiff-International-Church/cic-website)
-[![JavaScript](https://img.shields.io/badge/JavaScript-3.5%25-yellow)](https://github.com/Cardiff-International-Church/cic-website)
+[![HTML](https://img.shields.io/badge/HTML-96.5%25-orange)](https://github.com/Church-Web-Development/nic-website)
+[![JavaScript](https://img.shields.io/badge/JavaScript-3.5%25-yellow)](https://github.com/Church-Web-Development/nic-website)
 
-Welcome to the official repository for the Cardiff International Church (CIC) Website!
+Welcome to the official repository for the Newport International Church (NIC) Website!
 
 ## Table of Contents
 
@@ -19,12 +19,12 @@ Welcome to the official repository for the Cardiff International Church (CIC) We
 
 ## About
 
-This repository contains the source code for the [Cardiff International Church](https://cardiffinternationalchurch.org) website. The goal is to provide information about CIC, its vision, activities, and how to get involved.
+This repository contains the source code for the [Newport International Church](https://newportinternationalchurch.org) website. The goal is to provide information about NIC, its vision, activities, and how to get involved.
 
 ## Features
 
 - Responsive and accessible website design
-- Information about CIC and its ministries
+- Information about NIC and its ministries
 - Upcoming events and news
 - Contact and location details
 - Integration with social media and newsletter sign-up
@@ -35,8 +35,8 @@ To run the site locally or contribute, follow these steps:
 
 1. **Clone the Repository:**
    ```bash
-   git clone https://github.com/Cardiff-International-Church/cic-website.git
-   cd cic-website
+   git clone https://github.com/Church-Web-Development/nic-website.git
+   cd nic-website
    ```
 
 2. **Open the Website:**
@@ -81,7 +81,7 @@ This project is licensed under the [MIT License](LICENSE).
 
 ## Contact
 
-- Website: [cardiffinternationalchurch.org](https://cardiffinternationalchurch.org)
+- Website: [newportinternationalchurch.org](https://newportinternationalchurch.org)
 
 ## EmailJS Configuration
 
@@ -131,7 +131,7 @@ For detailed deployment instructions, see `FIREBASE_DEPLOYMENT.md`.
 ## Project Structure
 
 ```
-cic-website/
+nic-website/
 ├── index.html              # Homepage
 ├── contact.html            # Contact page with form
 ├── about.html              # About page
@@ -164,4 +164,4 @@ cic-website/
 
 ---
 
-*The website for CIC — Cardiff International Church*
+*The website for NIC — Newport International Church*
