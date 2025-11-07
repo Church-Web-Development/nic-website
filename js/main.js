@@ -29,25 +29,25 @@ document.addEventListener('DOMContentLoaded', function() {
  */
 function getRandomHeaderImageUrl() {
     const headerImages = [
-        'https://newportinternationalchurch.org/wp-content/uploads/2025/05/cropped-K7.jpg',
-        'https://newportinternationalchurch.org/wp-content/uploads/2025/05/cropped-K11.jpg',
-        'https://newportinternationalchurch.org/wp-content/uploads/2025/06/cropped-B.jpg',
-        'https://newportinternationalchurch.org/wp-content/uploads/2025/03/cropped-cropped-NIC-Sunday-2-scaled-1.jpg',
-        'https://newportinternationalchurch.org/wp-content/uploads/2025/05/cropped-K10.jpg',
-        'https://newportinternationalchurch.org/wp-content/uploads/2025/05/cropped-K9.jpg',
-        'https://newportinternationalchurch.org/wp-content/uploads/2025/05/cropped-K7.jpg',
-        'https://newportinternationalchurch.org/wp-content/uploads/2022/10/cropped-Games-scaled-1.jpg',
-        'https://newportinternationalchurch.org/wp-content/uploads/2024/06/cropped-conduct-1-scaled-1.jpg',
-        'https://newportinternationalchurch.org/wp-content/uploads/2024/12/cropped-cropped-cropped-c3-1-1.jpg',
-        'https://newportinternationalchurch.org/wp-content/uploads/2025/05/cropped-K3.jpg',
-        'https://newportinternationalchurch.org/wp-content/uploads/2021/10/cropped-Singing-together-1-scaled-1.jpg',
-        'https://newportinternationalchurch.org/wp-content/uploads/2025/06/cropped-P1.jpg',
-        'https://newportinternationalchurch.org/wp-content/uploads/2025/07/cropped-NIC-Worship-1.jpg',
-        'https://newportinternationalchurch.org/wp-content/uploads/2022/09/cropped-20220731_1915220-edit-scaled-1.jpg',
-        'https://newportinternationalchurch.org/wp-content/uploads/2025/03/cropped-cropped-Sunday-NIC-2-scaled-1.jpg',
-        'https://newportinternationalchurch.org/wp-content/uploads/2024/01/cropped-9-1-scaled-1.jpg'
-
-        
+        'images/header/cropped-K7.jpg',
+        'images/header/cropped-K11.jpg',
+        'images/header/cropped-K3.jpg',
+        'images/header/cropped-K10.jpg',
+        'images/header/cropped-K9.jpg',
+        'images/header/cropped-B.jpg',
+        'images/header/cropped-cropped-NIC-Sunday-2-scaled-1.jpg',
+        'images/header/African-song',
+        'images/header/Chinese-song',
+        'images/header/cropped-Games-scaled-1.jpg',
+        'images/header/cropped-conduct-1-scaled-1.jpg',
+        'images/header/cropped-cropped-cropped-c3-1-1.jpg',
+        'images/header/cropped-Singing-together-1-scaled-1.jpg',
+        'images/header/cropped-P.jpg',
+        'images/header/cropped-P1.jpg',
+        'images/header/cropped-NIC-Worship-1.jpg',
+        'images/header/cropped-20220731_1915220-edit-scaled-1.jpg',
+        'images/header/cropped-cropped-Sunday-NIC-2-scaled-1.jpg',
+        'images/header/cropped-9-1-scaled-1.jpg'
     ];
     
     // Get a random index
