@@ -18,7 +18,7 @@ jobs:
             const issue = context.payload.issue;
             // Pad the issue number with a leading zero if it's less than 100
             const paddedNumber = String(issue.number).padStart(2, '0');
-            const newTitle = `CIC-${paddedNumber}: ${issue.title}`;
+            const newTitle = `NIC-${paddedNumber}: ${issue.title}`;
             
             await github.rest.issues.update({
               owner: context.repo.owner,
