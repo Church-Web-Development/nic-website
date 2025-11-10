@@ -444,7 +444,7 @@ function initEmailJS() {
     // Initialize EmailJS with your public key
     // Replace 'YOUR_PUBLIC_KEY' with your actual EmailJS public key
     if (typeof emailjs !== 'undefined') {
-        emailjs.init('0CnrdV3Rd7u2sxjpa'); 
+        emailjs.init(''); 
     }
 }
 
@@ -591,8 +591,7 @@ function initContactForm() {
  */
 function sendEmail(formData) {
     // Replace these with your actual EmailJS service ID and template ID
-    const serviceID = 'service_nic_website';
-    const templateID = 'template_nic_website';
+    // add your service ID and template ID here
 
     // Prepare template parameters
     const templateParams = {
