@@ -76,7 +76,7 @@ function setRandomHeaderImage() {
         
         // Fallback: if image fails to load, show a default
         headerImage.onerror = function() {
-            this.src = 'images/header/cropped-20190714_162207.jpg';
+            this.src = 'images/header/African-song.jpg';
             this.classList.add('loaded');
         };
     }
