@@ -1,0 +1,8 @@
+{
+  "projects": {
+    "default": "", // check on firebase console
+    "nic-website": "" // check on firebase console
+  },
+  "targets": {},
+  "etags": {}
+}
